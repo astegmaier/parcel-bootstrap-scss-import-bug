@@ -1,13 +1,13 @@
 {
-  "name": "stackoverflow-parcel-bootstrap",
+  "name": "parcel-bootstrap-scss-import-bug",
   "version": "1.0.0",
-  "description": "",
+  "description": "A repro for a bug in parcel while importing scss files from bootstrap.",
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
     "clean": "rimraf dist .parcel-cache"
   },
-  "author": "",
+  "author": "Andrew Stegmaier",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0",
