@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel src/index.html --no-autoinstall --open",
-    "build": "parcel build src/index.html --no-autoinstall",
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
     "clean": "rimraf dist .parcel-cache"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
     "parcel": "^2.0.0",
     "rimraf": "^3.0.2"
   },
