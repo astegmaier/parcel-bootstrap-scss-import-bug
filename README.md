@@ -1,6 +1,6 @@
 # parcel-bootstrap-scss-import-bug
 
-This repo provides a reproduction of [an issue with parcel](https://stackoverflow.com/questions/66536381/cannot-create-property-importer-on-string-scss-bootstrap-scss/69683135#69683135) that can occur if you import `bootstrap.scss` from a `.css` file.
+This repo provides a reproduction of [an issue with parcel](https://stackoverflow.com/questions/66536381/cannot-create-property-importer-on-string-scss-bootstrap-scss/69683135#69683135) that can occur with parcel2 if you import `bootstrap.scss` from a `.css` file.
 
 If you try to build the project, you'll see this error:
 
